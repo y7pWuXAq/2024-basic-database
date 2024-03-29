@@ -25,7 +25,8 @@ IoT 개발자과정 SQLSever 학습 리포지토리
     - SQL(Structured Query Languge) : 구조화 된 질의 언어
         - DDL(Data Definition Lang) : 데이터 베이스 테이블, 인덱스 생성
         - DML(Data Manipulation Lang) : 제어, 검색, 삽입, 수정, 삭제 등 기능
-        - DCL(Data Control Lang) : 권한 부여 or 제거 가능, 
+        - DCL(Data Control Lang) : 보안, 권한 부여 or 제거 가능
+        - TCL(Transaction) : 트랜스액션을 제어 하는 기능 COMMIT(확립), ROLLBACK(되돌리기)
 
 - SQL 기본 학습
     - SSMS 실행
@@ -48,3 +49,27 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         - 기본, 조건검색 학습
 
 ### 2일차
+- Database 학습
+    - DB 개발시 사용할 수 있는 툴
+        - SSMS : 기본 개발 툴
+        - Visual Studio : 아무런 설치 없이 개발 가능
+        - Visual Studio Code : SQL Sever(mssql) 플러그인 설치 필요
+    - SeverName(HostName) : 내 컴퓨터 이름 | 내 네트워크 주소 | locahost(LoopBack URL) | 127.0.0.1(LoopBack IP)
+    - 관계 데이터 모델
+        - 릴레이션 : 행과 열로 구성 된 테이블(관계 데이터모델에서만 적용)
+            - 행, 튜플, 열, 속성, 스키마, 인스턴스 용어
+        - 매핑되는 이름 테이블(실제 DB)
+            - 행, 레코드, 열, 컬럼, 컬럼이름, 데이터
+        - 차수(degee) : 속성의 개수
+        - 카디날리(cardinality) : 튜플의 수
+
+        - 릴레이션의 특징
+            - 속성은 단일값을 가짐(한 칸에 한 이름만)
+            - 속성은 다른 이름으로 구성 되어야 함(속성이 중복될 수 없다)
+            - 속성의 값은 정의된 도메인값만 가짐
+            - 속성의 순서는 상관 없음
+            - 릴레이션 내 중복된 튜플 허용 안함(동일한 내용의 정보가 있을 수 없음)
+            - 튜플 순서는 상관 없음
+
+        - 관계 데이터 모델은 아래으의 구성요소로
+- DML 학습
