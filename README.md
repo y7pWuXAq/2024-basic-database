@@ -31,7 +31,9 @@ IoT 개발자과정 SQLSever 학습 리포지토리
 - SQL 기본 학습
     - SSMS 실행
 
-    ![SSMS 로그인](https://github.com/y7pWuXAq/2024-basic-database/blob/main/images/db002.png))
+    ![SSMS 로그인](https://github.com/y7pWuXAq/2024-basic-database/blob/main/images/db002.png)
+
+    - 특이사항 : SSMS 쿼리 창에서 소스코드 작성 시 빨간색 오류 및줄이 가끔 표현됨 (모두 오류는 아님!)
 
 - DML 학습
     - SQL 명령어 키워드 : SELECT, INSERT, UPDATE, DELETE
@@ -71,5 +73,22 @@ IoT 개발자과정 SQLSever 학습 리포지토리
             - 릴레이션 내 중복된 튜플 허용 안함(동일한 내용의 정보가 있을 수 없음)
             - 튜플 순서는 상관 없음
 
-        - 관계 데이터 모델은 아래으의 구성요소로
+        - 관계 데이터 모델은 아래의 요소로 구성됨
+            - 릴레이션(Relation)
+            - 제약조건(Constraints)
+            - 관계대수(Relation algebra)
+
 - DML 학습
+    - SELECT문 
+        - 복합조건, 정렬
+        - 집계함수와 GROUP BY
+            - SUM(총합), AVG(평균), COUNT(개수), MIN(최소), MAX(최대값)
+            - 집계함수 외 일반 컬럼은 GROUP BY 절에 속한 컬럼만 SELECT문에 사용가능 
+            - HAVING은 집계함수의 필터로 GROUP BY 뒤에 작성. WHERE절과 필터링이 다르다.
+
+        - 두개 이상의 테이블 질의(Query)
+            - 관계형 DB에서 가장 중요한 기법중 하나 : JOIN!
+            - INNER JOIN(내부 조인) [참조](https://sql-joins.leopard.in.ua/)
+            - LEFT|RIGHT OUTER JOIN(외부 조인) - 어느 테이블이 기준인지에 따라서 결과가 상이함
+
+        ![외부조인](https://github.com/y7pWuXAq/2024-basic-database/blob/main/images/db004.png)
