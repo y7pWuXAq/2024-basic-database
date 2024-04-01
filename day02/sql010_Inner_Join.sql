@@ -4,7 +4,7 @@ SELECT *
   FROM Customer, Orders;
 
 -- Customer, Orders 테이블을 동시에 조회(둘의 custid가 일치하는 조건에서)
--- RDB에서 가장가장가장 중요한 쿼리문 1 - Join, 조인, 쪼인!
+-- RDB에서 가장가장가장 중요한 쿼리문 1 - Join
 SELECT * 
   FROM Customer, Orders
  WHERE Customer.custid = Orders.custid
