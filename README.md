@@ -289,6 +289,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         - INSERT 쿼리에 한글 입력되는 컬럼은 N'(컬럼이름)' 사용 : N 유니코드로 입력하라는 뜻
 
     - 실행화면
+      
         https://github.com/y7pWuXAq/2024-basic-database/assets/158008080/5f88d5a8-c879-40b2-9e5b-3148b8143836
 
 
