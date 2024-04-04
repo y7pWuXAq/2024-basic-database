@@ -203,7 +203,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         ```sql
         -- 트랜잭션을 걸어서 복구를 대비
         UPDATE 테이블이름
-           SET 속성이름1=값[, 속성이름2=값, ...]
+           SET 속성이름1=값 [, 속성이름2=값, ...]
          WHERE <검색조건> -- 실무에서는 주의해서 실행! 빠지면 큰일 남
         ```
 
@@ -278,4 +278,19 @@ IoT 개발자과정 SQLSever 학습 리포지토리
 
         ![구성관리자](https://github.com/y7pWuXAq/2024-basic-database/blob/main/images/db005.png)
 
+
+## 6일차
+- 파이썬 SQL Server 연동 프로그래밍
+    - Madang DB 관리 프로그램
+        - PyQt5 + pymssql
+    - 문제점!
+        - 한글 깨짐 문제 : DB 테이블의 varchar(ASCII) -> nvarchar(UTF-8) 변경
+        - Python에서 pymssql로 접속 할 때, Charset을 'UTF-8'로 설정
+        - INSERT 쿼리에 한글 입력되는 컬럼은 N'(컬럼이름)' 사용 : N 유니코드로 입력하라는 뜻
+
+    - 실행화면
+
+## 7일차
+- SQL 고급
+    - 트랜잭션 
 - 데이터베이스 모델링
