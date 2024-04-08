@@ -323,6 +323,10 @@ IoT 개발자과정 SQLSever 학습 리포지토리
     - 인덱스가 설정이 되면 성능이 어떤지 비교
     - 더미 데이터 생성 시 100만건 이하로 제약을 두고 시작
 
+    <!-- md 주석 ![인덱스](https://github.com/y7pWuXAq/2024-basic-database/blob/main/images/db005.png) -->
+    <!-- html img 태그가 이미지 사이즈 조정 가능 -->
+    <img src="https://github.com/y7pWuXAq/2024-basic-database/blob/main/images/db006.png" width="900">
+
 
 ### DAY 8
 - 인덱스 예제
