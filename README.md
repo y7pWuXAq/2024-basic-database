@@ -3,6 +3,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
 
 
 ### DAY 1
+
 - NS SQL Sever 설치 : https://www.microsoft.com/ko-kr/sql-server/sql-server-downloads 2022 최신버전
     - DBMS 엔진 설치 : 개발자 버전(ios 다운로드 후 설치 추천!!)
         - SQL Sever에 대한 Azure 확장은 비활성화 후 진행
@@ -50,7 +51,9 @@ IoT 개발자과정 SQLSever 학습 리포지토리
     - SELECT 문 학습
         - 기본, 조건검색 학습
 
+
 ### DAY 2
+
 - Database 학습
     - DB 개발시 사용할 수 있는 툴
         - SSMS : 기본 개발 툴
@@ -92,6 +95,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
             - LEFT|RIGHT OUTER JOIN(외부 조인) - 어느 테이블이 기준인지에 따라서 결과가 상이함
 
         ![외부조인](https://github.com/y7pWuXAq/2024-basic-database/blob/main/images/db004.png)
+
 
 ### DAY 3
 
@@ -185,7 +189,9 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         
         - 외래키로 사용되는 기본키가 있으면 외래키를 사용하는 테이블 삭제 후, 기본키의 테이블 삭제해야 함!!
 
+
 ### DAY 4
+
 - 관계 데이터 모델
     - 관계대수 : 릴레이션에서 원하는 결과를 얻기위한 수학의 대수와 같은 연산 사용 기술하는 언어
     - 셀렉션, 프로젝션, 집합, 조인, 카티션 프로덕트 등등
@@ -226,7 +232,9 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         - WHERE : 다수행, 단일열(보통)
             - 비교연산, 집합연산, 한정연산, 존재연산 가능
 
+
 ### DAY 5
+
 - SQL 고급
     - 서브쿼리 리뷰
     - 뷰
@@ -280,6 +288,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
 
 
 ### DAY 6
+
 - 파이썬 SQL Server 연동 프로그래밍
     - Madang DB 관리 프로그램
         - PyQt5 + pymssql
@@ -293,8 +302,8 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         https://github.com/y7pWuXAq/2024-basic-database/assets/158008080/5f88d5a8-c879-40b2-9e5b-3148b8143836
 
 
-
 ### DAY 7
+
 - SQL 고급
     - 트랜잭션
         - 전체가 수행되거나 전혀 수행되지 않아야 함(ALL or Nothing)
@@ -329,6 +338,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
 
 
 ### DAY 8
+
 - 인덱스 예제
 - 정규화
     - DB상에서 생기는 이상현상(삽입, 삭제, 수정)이 생기지 않는 릴레이션(테이블) 분리해서 데이터베이스 설계
@@ -350,4 +360,31 @@ IoT 개발자과정 SQLSever 학습 리포지토리
                 - 사용자 계정 : hr_user, 비밀번호 : hr_p@ss!
                 - 일반 : 기본 데이터베이스를 hr로 선택
                 - 사용자 매핑 : hr 선택, 데이터베이스 역할 멤버 : db_owner 선택
-    2. HR 사용자 로그인()
+    2. HR 사용자 로그인(VS Code) : hr_user
+        - SELECT
+        - WHERE, ORDER BY
+        - FUNCTION
+        - AGGREGATE FUNC
+        - JOIN
+        - SET
+
+
+### DAY 9
+- 실무실습
+    - 쿼리실습
+        - 기본 SELECT, WHERE, ORDER BY
+        - 집계함수 GROUP BY, ROLLUP
+        - JOIN, SUBQUERY, UNION(집합)...
+        - CASE WHEN THEN END ...
+        - 내장함수 ... 
+
+
+    ![HR_ERD](https://github.com/y7pWuXAq/2024-basic-database/blob/main/images/db007.png)
+
+
+
+- 공부가 더 필요한 부분!
+    - 트랜잭션
+    - DB보안 백업과 복원
+    - 모델링 + 정규화
+    - 데이터모델링 실습
