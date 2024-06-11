@@ -2,7 +2,7 @@
 IoT 개발자과정 SQLSever 학습 리포지토리
 
 
-### DAY 1
+### DAY 01
 
 - NS SQL Sever 설치 : https://www.microsoft.com/ko-kr/sql-server/sql-server-downloads 2022 최신버전
     - DBMS 엔진 설치 : 개발자 버전(ios 다운로드 후 설치 추천!!)
@@ -52,7 +52,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         - 기본, 조건검색 학습
 
 
-### DAY 2
+### DAY 02
 
 - Database 학습
     - DB 개발시 사용할 수 있는 툴
@@ -97,7 +97,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         ![외부조인](https://github.com/y7pWuXAq/2024-basic-database/blob/main/images/db004.png)
 
 
-### DAY 3
+### DAY 03
 
 - Database 학습
     - 관계 데이터 모델
@@ -190,7 +190,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         - 외래키로 사용되는 기본키가 있으면 외래키를 사용하는 테이블 삭제 후, 기본키의 테이블 삭제해야 함!!
 
 
-### DAY 4
+### DAY 04
 
 - 관계 데이터 모델
     - 관계대수 : 릴레이션에서 원하는 결과를 얻기위한 수학의 대수와 같은 연산 사용 기술하는 언어
@@ -233,7 +233,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
             - 비교연산, 집합연산, 한정연산, 존재연산 가능
 
 
-### DAY 5
+### DAY 05
 
 - SQL 고급
     - 서브쿼리 리뷰
@@ -287,7 +287,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         ![구성관리자](https://github.com/y7pWuXAq/2024-basic-database/blob/main/images/db005.png)
 
 
-### DAY 6
+### DAY 06
 
 - 파이썬 SQL Server 연동 프로그래밍
     - Madang DB 관리 프로그램
@@ -302,7 +302,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         https://github.com/y7pWuXAq/2024-basic-database/assets/158008080/5f88d5a8-c879-40b2-9e5b-3148b8143836
 
 
-### DAY 7
+### DAY 07
 
 - SQL 고급
     - 트랜잭션
@@ -337,7 +337,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
     <img src="https://github.com/y7pWuXAq/2024-basic-database/blob/main/images/db006.png" width="900">
 
 
-### DAY 8
+### DAY 08
 
 - 인덱스 예제
 - 정규화
@@ -369,7 +369,7 @@ IoT 개발자과정 SQLSever 학습 리포지토리
         - SET
 
 
-### DAY 9
+### DAY 09
 - 실무실습
     - 쿼리실습
         - 기본 SELECT, WHERE, ORDER BY
